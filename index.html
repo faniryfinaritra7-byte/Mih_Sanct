@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Sanctuaire Secret</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-card">
+            <!-- Photo de couple -->
+            <div class="couple-photo">
+                <img src="Images/Mih (1).jpg" alt="Notre amour" class="main-photo">
+            </div>
+            
+            <!-- Titre -->
+            <div class="login-header">
+                <h1>Notre Sanctuaire Secret</h1>
+                <p class="subtitle">Un monde rien qu'à nous</p>
+            </div>
+
+            <!-- Formulaire -->
+            <form class="login-form" id="loginForm">
+                <div class="input-group">
+                    <label for="password">Notre mot de passe</label>
+                    <input type="password" id="password" placeholder="💝 Tape notre mot de passe..." required>
+                </div>
+
+                <div class="input-group">
+                    <label for="birthdate">Ta date de naissance</label>
+                    <input type="date" id="birthdate" required>
+                </div>
+
+                <button type="submit" class="login-btn">
+                    <span class="btn-text">Ouvrir notre monde</span>
+                    <span class="btn-icon">🔓</span>
+                </button>
+            </form>
+
+            <!-- Indice -->
+            <div class="hint">
+                <p>💡 <em>Indice : C'est notre code secret...</em></p>
+            </div>
+
+            <!-- Message d'erreur -->
+            <div class="error-message" id="errorMessage"></div>
+        </div>
+
+        <!-- Signature discrète -->
+        <div class="signature">
+            <p>Créé avec amour pour toi Michella 💖</p>
+        </div>
+    </div>
+
+    <script src="JS/acces.js"></script>
+</body>
+</html>
